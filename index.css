@@ -1,0 +1,73 @@
+html { 
+    background: url(pubgBack2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #FFA500;
+}
+body.dark{
+    background-color:rgb(28, 28, 32);
+    background: url(img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size:17px;
+    line-height: 30px;
+}
+h2{
+    text-align: center;
+    font-weight: 900;
+    color: rgba(255,255,255,0.8);
+}
+html,
+body {
+  height: 100%
+}
+.line{
+    border: 0;
+    background-color: #000;
+    height: 3px;
+    cursor: pointer;
+}
+.table{
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255, 166, 0,1);
+}
+.semi{
+    background-color: rgba(63, 61, 61, 0.7);
+    width:auto;
+    color: rgb(0, 238, 255);
+    text-align: center;
+}
+th{
+    color:white;
+}

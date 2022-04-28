@@ -1,0 +1,9 @@
+
+a { color: #FF0000; } /* CSS link color */
+body {
+	background: url(pubgBack6.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
